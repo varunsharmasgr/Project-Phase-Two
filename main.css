@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* CSS */
+
+html,
+body {
+  font-size: 1em;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  background-color:#a1a7a7;
+}
+#header{
+  height:40px;
+  width:100%;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  background-color: #9ea809;
+
+}
+
+.inner {
+  width: 70%;
+  margin-left:auto;
+  margin-right: auto;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: 'Bangers', cursive;
+}
+/* Style the header */
+.toDoList {
+  background-color: rgb(238, 12, 12);
+  padding: 20px 35px ;
+  color: white;
+  text-align: center;
+  margin-top: 35px;
+}
+
+
+/* Clear floats after the header */
+.toDoList:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#para{
+  font-family: 'Bangers', cursive;
+  font-size: 30px;
+
+}
+input{
+  line-height: 30px;
+  width:60%
+}
+ul li {
+  list-style: none;
+  line-height: 10px 0 15px 0;
+  font-family: 'Bangers', cursive;
+  font-size: 15px;
+
+}
+
+
+/* Style the "Add" button */
+.addBtn {
+  padding: 10px;
+  width: 20%;
+  background: #eb1515;
+  color: rgb(0, 0, 0);
+  float:right;
+  text-align: center;
+  font-size: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.addBtn:hover {
+  background-color: rgb(187, 187, 187);
+}
+.deleteButton{
+   border: none;
+  right: 0px;
+  top: 0px;
+  padding: 10 0 10 0px ;
+
+}
+
+
+.deleteButton:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+#locMap {
+	height: 350px;
+	width: 350px;
+	float:right;
+}
